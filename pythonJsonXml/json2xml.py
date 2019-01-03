@@ -6,5 +6,5 @@ with open('json/fattura.json', 'r') as f:
 
     xmlString = xmltodict.unparse(json.loads(jsonString), pretty=True)
 
-    with open('xml/fattura2.xml', 'w') as f:
+    with open('xml/fattura.xml', 'w') as f:
         f.write(xmlString)
